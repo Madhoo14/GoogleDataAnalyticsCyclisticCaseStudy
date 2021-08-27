@@ -2,7 +2,9 @@
 title: "CyclisticCaseStudy"
 author: "Madhu Santhanam"
 date: "21/08/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -35,7 +37,7 @@ library(tidyverse)
 library(readxl)
 library(lubridate)
 library(ggplot2)
-
+tinytex::install_tinytex()
 setwd("~/Cyclistic data")
 ```
 
